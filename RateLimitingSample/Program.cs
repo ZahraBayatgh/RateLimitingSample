@@ -41,7 +41,6 @@ using (var scope = app.Services.CreateScope())
 }
 
 
-IRateLimitConfiguration xx =app.Services.GetRequiredService<IRateLimitConfiguration>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
